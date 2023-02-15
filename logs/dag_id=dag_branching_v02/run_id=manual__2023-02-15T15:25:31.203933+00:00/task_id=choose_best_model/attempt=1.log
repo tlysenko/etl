@@ -1,0 +1,26 @@
+[2023-02-15T15:25:32.975+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_branching_v02.choose_best_model manual__2023-02-15T15:25:31.203933+00:00 [queued]>
+[2023-02-15T15:25:32.993+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_branching_v02.choose_best_model manual__2023-02-15T15:25:31.203933+00:00 [queued]>
+[2023-02-15T15:25:32.994+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T15:25:32.996+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-15T15:25:32.997+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T15:25:33.047+0000] {taskinstance.py:1300} INFO - Executing <Task(BranchPythonOperator): choose_best_model> on 2023-02-15 15:25:31.203933+00:00
+[2023-02-15T15:25:33.097+0000] {standard_task_runner.py:55} INFO - Started process 26002 to run task
+[2023-02-15T15:25:33.141+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_branching_v02', 'choose_best_model', 'manual__2023-02-15T15:25:31.203933+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/dag_branching_2.py', '--cfg-path', '/tmp/tmplvg2i676']
+[2023-02-15T15:25:33.151+0000] {standard_task_runner.py:83} INFO - Job 126: Subtask choose_best_model
+[2023-02-15T15:25:33.489+0000] {task_command.py:388} INFO - Running <TaskInstance: dag_branching_v02.choose_best_model manual__2023-02-15T15:25:31.203933+00:00 [running]> on host 20eb5e5814e6
+[2023-02-15T15:25:33.642+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_branching_v02
+AIRFLOW_CTX_TASK_ID=choose_best_model
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T15:25:31.203933+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-15T15:25:31.203933+00:00
+[2023-02-15T15:25:33.647+0000] {python.py:177} INFO - Done. Returned value was: accurate
+[2023-02-15T15:25:33.648+0000] {python.py:211} INFO - Branch callable return accurate
+[2023-02-15T15:25:33.650+0000] {skipmixin.py:155} INFO - Following branch accurate
+[2023-02-15T15:25:33.651+0000] {skipmixin.py:211} INFO - Skipping tasks ['inaccurate']
+[2023-02-15T15:25:33.723+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=dag_branching_v02, task_id=choose_best_model, execution_date=20230215T152531, start_date=20230215T152532, end_date=20230215T152533
+[2023-02-15T15:25:33.788+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-15T15:25:33.843+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

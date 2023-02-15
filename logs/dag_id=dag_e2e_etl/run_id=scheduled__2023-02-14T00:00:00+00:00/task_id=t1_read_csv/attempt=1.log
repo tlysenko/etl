@@ -1,0 +1,48 @@
+[2023-02-15T12:10:21.706+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_e2e_etl.t1_read_csv scheduled__2023-02-14T00:00:00+00:00 [queued]>
+[2023-02-15T12:10:21.713+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_e2e_etl.t1_read_csv scheduled__2023-02-14T00:00:00+00:00 [queued]>
+[2023-02-15T12:10:21.713+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T12:10:21.714+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-15T12:10:21.714+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T12:10:21.724+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): t1_read_csv> on 2023-02-14 00:00:00+00:00
+[2023-02-15T12:10:21.730+0000] {standard_task_runner.py:55} INFO - Started process 496 to run task
+[2023-02-15T12:10:21.735+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_e2e_etl', 't1_read_csv', 'scheduled__2023-02-14T00:00:00+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/dag_e2e_etl.py', '--cfg-path', '/tmp/tmpuufy3xz9']
+[2023-02-15T12:10:21.737+0000] {standard_task_runner.py:83} INFO - Job 116: Subtask t1_read_csv
+[2023-02-15T12:10:21.814+0000] {task_command.py:388} INFO - Running <TaskInstance: dag_e2e_etl.t1_read_csv scheduled__2023-02-14T00:00:00+00:00 [running]> on host 20eb5e5814e6
+[2023-02-15T12:10:22.617+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_e2e_etl
+AIRFLOW_CTX_TASK_ID=t1_read_csv
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-14T00:00:00+00:00
+[2023-02-15T12:10:22.641+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 16, in t1_read_csv
+    df = pd.read_csv(path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/Tanya/PycharmProjects/airflow-etl/data/train.csv'
+[2023-02-15T12:10:22.681+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=dag_e2e_etl, task_id=t1_read_csv, execution_date=20230214T000000, start_date=20230215T121021, end_date=20230215T121022
+[2023-02-15T12:10:22.713+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 116 for task t1_read_csv ([Errno 2] No such file or directory: '/Users/Tanya/PycharmProjects/airflow-etl/data/train.csv'; 496)
+[2023-02-15T12:10:22.845+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-15T12:10:22.915+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

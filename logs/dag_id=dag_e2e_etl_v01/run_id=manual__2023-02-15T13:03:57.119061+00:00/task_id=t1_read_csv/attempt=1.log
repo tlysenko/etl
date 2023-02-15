@@ -1,0 +1,48 @@
+[2023-02-15T13:03:58.603+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_e2e_etl_v01.t1_read_csv manual__2023-02-15T13:03:57.119061+00:00 [queued]>
+[2023-02-15T13:03:58.614+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_e2e_etl_v01.t1_read_csv manual__2023-02-15T13:03:57.119061+00:00 [queued]>
+[2023-02-15T13:03:58.615+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T13:03:58.616+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-15T13:03:58.616+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T13:03:58.627+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): t1_read_csv> on 2023-02-15 13:03:57.119061+00:00
+[2023-02-15T13:03:58.635+0000] {standard_task_runner.py:55} INFO - Started process 7488 to run task
+[2023-02-15T13:03:58.639+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_e2e_etl_v01', 't1_read_csv', 'manual__2023-02-15T13:03:57.119061+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/dag_e2e_etl.py', '--cfg-path', '/tmp/tmptk70wp5q']
+[2023-02-15T13:03:58.641+0000] {standard_task_runner.py:83} INFO - Job 121: Subtask t1_read_csv
+[2023-02-15T13:03:58.706+0000] {task_command.py:388} INFO - Running <TaskInstance: dag_e2e_etl_v01.t1_read_csv manual__2023-02-15T13:03:57.119061+00:00 [running]> on host 20eb5e5814e6
+[2023-02-15T13:03:58.982+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_e2e_etl_v01
+AIRFLOW_CTX_TASK_ID=t1_read_csv
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T13:03:57.119061+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-15T13:03:57.119061+00:00
+[2023-02-15T13:04:01.148+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 18, in t1_read_csv
+    df = pd.read_csv(url)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 488, in _read
+    return parser.read(nrows)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1047, in read
+    index, columns, col_dict = self._engine.read(nrows)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 224, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 801, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 857, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 843, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 1925, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 27, saw 367
+
+[2023-02-15T13:04:01.286+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=dag_e2e_etl_v01, task_id=t1_read_csv, execution_date=20230215T130357, start_date=20230215T130358, end_date=20230215T130401
+[2023-02-15T13:04:01.341+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 121 for task t1_read_csv (Error tokenizing data. C error: Expected 1 fields in line 27, saw 367
+; 7488)
+[2023-02-15T13:04:01.586+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-15T13:04:01.623+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
