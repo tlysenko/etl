@@ -19,12 +19,13 @@ with DAG(
     task_1 = BashOperator(
         task_id='task_1',
         bash_command='echo "Hello World!"')
+
     task_2 = BashOperator(
         task_id='task_2',
         bash_command='echo "It is the second task that follows task_1"')
     task_3 = BashOperator(
         task_id='task_3',
-        bash_command='echo "It is the third task that f"')
+        bash_command='pwd')
 
 #    task_1.set_downstream(task_2)
 #    task_1.set_downstream(task_3)
