@@ -1,7 +1,7 @@
 '''
 1. Get the file from S3
 2. Transform the data
-3. Put the file back to S3 and rename it
+3. Put the file back to S3
 '''
 
 import pandas as pd
@@ -22,12 +22,6 @@ S3_BUCKET_NAME = config['S3']['bucket_name']
 FILE_NAME = config['S3']['file_name']
 
 ### Helper functions
-
-def test_connection(aws_conn_id=AWS_CONN_ID):
-    s3_hook = S3Hook(aws_conn_id)
-    s3_hook.check_for_bucket(S3_BUCKET_NAME)
-    s3object = s3_hook.get_key('titanic.csv', S3_BUCKET_NAME)
-    return s3object
 
 def get_file_from_s3(file_name=FILE_NAME,
                      s3_bucket_name=S3_BUCKET_NAME,
@@ -62,6 +56,8 @@ def put_file_to_s3(df,
 def transform(df):
     df.dropna(inplace=True)
     return df
+
+### ETL function
 
 def ETL(file_name=FILE_NAME,
         s3_bucket_name=S3_BUCKET_NAME,
