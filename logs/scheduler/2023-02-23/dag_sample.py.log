@@ -1,0 +1,74 @@
+[2023-02-23T12:53:04.125+0000] {processor.py:153} INFO - Started process (PID=59003) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:53:04.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:53:04.127+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:53:04.562+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:53:04.672+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.672+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:DDD_bash_unscheduled
+[2023-02-23T12:53:04.678+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.677+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:DDD_bash_unscheduled
+[2023-02-23T12:53:04.681+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.681+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:DDD_bash_unscheduled
+[2023-02-23T12:53:04.681+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.681+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:53:04.690+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.689+0000] {dag.py:2711} INFO - Creating ORM DAG for DDD_bash_unscheduled
+[2023-02-23T12:53:04.696+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:04.696+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:53:04.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.589 seconds
+[2023-02-23T12:53:35.570+0000] {processor.py:153} INFO - Started process (PID=59086) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:53:35.572+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:53:35.573+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:35.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:53:36.114+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:53:36.153+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:36.152+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:53:36.169+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:53:36.169+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:53:36.179+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.622 seconds
+[2023-02-23T12:54:06.438+0000] {processor.py:153} INFO - Started process (PID=59170) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:54:06.439+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:54:06.440+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:54:06.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:54:06.981+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:54:07.000+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:54:07.000+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:54:07.015+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:54:07.015+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:54:07.025+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.591 seconds
+[2023-02-23T12:54:37.633+0000] {processor.py:153} INFO - Started process (PID=59241) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:54:37.635+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:54:37.636+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:54:37.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:54:38.101+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:54:38.124+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:54:38.123+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:54:38.139+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:54:38.139+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:54:38.150+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.524 seconds
+[2023-02-23T12:55:08.480+0000] {processor.py:153} INFO - Started process (PID=59326) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:55:08.482+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:55:08.484+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:55:08.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:55:08.990+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:55:09.013+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:55:09.013+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:55:09.032+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:55:09.032+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:55:09.047+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.572 seconds
+[2023-02-23T12:55:39.415+0000] {processor.py:153} INFO - Started process (PID=59406) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:55:39.416+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:55:39.418+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:55:39.418+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:55:40.091+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:55:40.125+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:55:40.125+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:55:40.145+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:55:40.145+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:55:40.174+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.764 seconds
+[2023-02-23T12:56:11.098+0000] {processor.py:153} INFO - Started process (PID=59480) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:56:11.101+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:56:11.105+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:56:11.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:56:11.550+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:56:11.572+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:56:11.572+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:56:11.588+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:56:11.588+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:56:11.598+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.507 seconds
+[2023-02-23T12:56:42.647+0000] {processor.py:153} INFO - Started process (PID=59563) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:56:42.649+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:56:42.650+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:56:42.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:56:43.112+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:56:43.136+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:56:43.136+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:56:43.152+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:56:43.152+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:56:43.163+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.529 seconds
+[2023-02-23T12:57:14.167+0000] {processor.py:153} INFO - Started process (PID=59633) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:57:14.170+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:57:14.173+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:57:14.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:57:14.827+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:57:14.916+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:57:14.915+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:57:14.953+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:57:14.953+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:57:14.968+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.807 seconds
+[2023-02-23T12:57:45.411+0000] {processor.py:153} INFO - Started process (PID=59721) to work on /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:57:45.414+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_sample.py for tasks to queue
+[2023-02-23T12:57:45.416+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:57:45.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:57:45.962+0000] {processor.py:753} INFO - DAG(s) dict_keys(['DDD_bash_unscheduled']) retrieved from /opt/airflow/dags/dag_sample.py
+[2023-02-23T12:57:46.003+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:57:46.003+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-02-23T12:57:46.021+0000] {logging_mixin.py:137} INFO - [2023-02-23T12:57:46.021+0000] {dag.py:3441} INFO - Setting next_dagrun for DDD_bash_unscheduled to None, run_after=None
+[2023-02-23T12:57:46.032+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_sample.py took 0.639 seconds

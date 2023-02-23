@@ -1,0 +1,25 @@
+[2023-02-20T17:53:52.553+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_to_postgres_v01.download_csv_and_store_to_S3 manual__2023-02-20T17:53:51.333714+00:00 [queued]>
+[2023-02-20T17:53:52.558+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_to_postgres_v01.download_csv_and_store_to_S3 manual__2023-02-20T17:53:51.333714+00:00 [queued]>
+[2023-02-20T17:53:52.559+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T17:53:52.559+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-20T17:53:52.560+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T17:53:52.568+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_csv_and_store_to_S3> on 2023-02-20 17:53:51.333714+00:00
+[2023-02-20T17:53:52.574+0000] {standard_task_runner.py:55} INFO - Started process 3436 to run task
+[2023-02-20T17:53:52.579+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'csv_to_postgres_v01', 'download_csv_and_store_to_S3', 'manual__2023-02-20T17:53:51.333714+00:00', '--job-id', '166', '--raw', '--subdir', 'DAGS_FOLDER/clean_csv_via_s3_and_postgres.py', '--cfg-path', '/tmp/tmpzfxfbwlb']
+[2023-02-20T17:53:52.581+0000] {standard_task_runner.py:83} INFO - Job 166: Subtask download_csv_and_store_to_S3
+[2023-02-20T17:53:52.648+0000] {task_command.py:388} INFO - Running <TaskInstance: csv_to_postgres_v01.download_csv_and_store_to_S3 manual__2023-02-20T17:53:51.333714+00:00 [running]> on host c2aaa60a62e5
+[2023-02-20T17:53:52.702+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=csv_to_postgres_v01
+AIRFLOW_CTX_TASK_ID=download_csv_and_store_to_S3
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T17:53:51.333714+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T17:53:51.333714+00:00
+[2023-02-20T17:53:53.864+0000] {base.py:73} INFO - Using connection ID 'AWS' for task execution.
+[2023-02-20T17:53:53.865+0000] {connection_wrapper.py:334} INFO - AWS Connection (conn_id='AWS', conn_type='aws') credentials retrieved from login and password.
+[2023-02-20T17:53:54.854+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-20T17:53:54.867+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=csv_to_postgres_v01, task_id=download_csv_and_store_to_S3, execution_date=20230220T175351, start_date=20230220T175352, end_date=20230220T175354
+[2023-02-20T17:53:54.923+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-20T17:53:55.034+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

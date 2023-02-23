@@ -1,0 +1,30 @@
+[2023-02-20T17:50:04.754+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_to_postgres_v01.df_to_postgres manual__2023-02-20T17:49:59.378980+00:00 [queued]>
+[2023-02-20T17:50:04.760+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_to_postgres_v01.df_to_postgres manual__2023-02-20T17:49:59.378980+00:00 [queued]>
+[2023-02-20T17:50:04.760+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T17:50:04.761+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-02-20T17:50:04.761+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T17:50:04.776+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): df_to_postgres> on 2023-02-20 17:49:59.378980+00:00
+[2023-02-20T17:50:04.781+0000] {standard_task_runner.py:55} INFO - Started process 2902 to run task
+[2023-02-20T17:50:04.787+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'csv_to_postgres_v01', 'df_to_postgres', 'manual__2023-02-20T17:49:59.378980+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/clean_csv_via_s3_and_postgres.py', '--cfg-path', '/tmp/tmpwetb9fjq']
+[2023-02-20T17:50:04.794+0000] {standard_task_runner.py:83} INFO - Job 163: Subtask df_to_postgres
+[2023-02-20T17:50:04.871+0000] {task_command.py:388} INFO - Running <TaskInstance: csv_to_postgres_v01.df_to_postgres manual__2023-02-20T17:49:59.378980+00:00 [running]> on host c2aaa60a62e5
+[2023-02-20T17:50:04.929+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=csv_to_postgres_v01
+AIRFLOW_CTX_TASK_ID=df_to_postgres
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T17:49:59.378980+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T17:49:59.378980+00:00
+[2023-02-20T17:50:04.931+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: df_to_postgres() missing 1 required positional argument: 'df'
+[2023-02-20T17:50:04.939+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=csv_to_postgres_v01, task_id=df_to_postgres, execution_date=20230220T174959, start_date=20230220T175004, end_date=20230220T175004
+[2023-02-20T17:50:04.946+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 163 for task df_to_postgres (df_to_postgres() missing 1 required positional argument: 'df'; 2902)
+[2023-02-20T17:50:04.958+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-20T17:50:04.986+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

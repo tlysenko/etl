@@ -1,0 +1,34 @@
+[2023-02-23T12:57:21.356+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: DDD_bash_unscheduled.fetch_events manual__2023-02-23T12:57:19.967703+00:00 [queued]>
+[2023-02-23T12:57:21.366+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: DDD_bash_unscheduled.fetch_events manual__2023-02-23T12:57:19.967703+00:00 [queued]>
+[2023-02-23T12:57:21.366+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23T12:57:21.367+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-23T12:57:21.367+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23T12:57:21.609+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): fetch_events> on 2023-02-23 12:57:19.967703+00:00
+[2023-02-23T12:57:21.627+0000] {standard_task_runner.py:55} INFO - Started process 59653 to run task
+[2023-02-23T12:57:21.633+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DDD_bash_unscheduled', 'fetch_events', 'manual__2023-02-23T12:57:19.967703+00:00', '--job-id', '230', '--raw', '--subdir', 'DAGS_FOLDER/dag_sample.py', '--cfg-path', '/tmp/tmpwtqr0_zz']
+[2023-02-23T12:57:21.637+0000] {standard_task_runner.py:83} INFO - Job 230: Subtask fetch_events
+[2023-02-23T12:57:21.712+0000] {task_command.py:388} INFO - Running <TaskInstance: DDD_bash_unscheduled.fetch_events manual__2023-02-23T12:57:19.967703+00:00 [running]> on host e29b8426fc8e
+[2023-02-23T12:57:21.781+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DDD_bash_unscheduled
+AIRFLOW_CTX_TASK_ID=fetch_events
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-23T12:57:19.967703+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-23T12:57:19.967703+00:00
+[2023-02-23T12:57:21.784+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-23T12:57:21.785+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'mkdir -p /data/events && curl -o /data/events.json http://events_api:5000/events']
+[2023-02-23T12:57:21.795+0000] {subprocess.py:86} INFO - Output:
+[2023-02-23T12:57:21.816+0000] {subprocess.py:93} INFO - mkdir: cannot create directory ‘/data’: Permission denied
+[2023-02-23T12:57:21.817+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-02-23T12:57:21.826+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-02-23T12:57:21.829+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=DDD_bash_unscheduled, task_id=fetch_events, execution_date=20230223T125719, start_date=20230223T125721, end_date=20230223T125721
+[2023-02-23T12:57:21.843+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 230 for task fetch_events (Bash command failed. The command returned a non-zero exit code 1.; 59653)
+[2023-02-23T12:57:21.891+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-23T12:57:21.911+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

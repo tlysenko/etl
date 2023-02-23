@@ -1,0 +1,1165 @@
+[2023-02-17T00:16:35.099+0000] {processor.py:153} INFO - Started process (PID=14298) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T00:16:35.101+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T00:16:35.106+0000] {logging_mixin.py:137} INFO - [2023-02-17T00:16:35.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T00:16:37.199+0000] {logging_mixin.py:137} INFO - [2023-02-17T00:16:37.186+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T00:16:37.204+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T00:16:37.234+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 2.149 seconds
+[2023-02-17T01:22:25.085+0000] {processor.py:153} INFO - Started process (PID=14366) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T01:22:25.094+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T01:22:25.109+0000] {logging_mixin.py:137} INFO - [2023-02-17T01:22:25.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T01:22:25.936+0000] {logging_mixin.py:137} INFO - [2023-02-17T01:22:25.934+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T01:22:25.937+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T01:22:25.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.879 seconds
+[2023-02-17T02:28:36.414+0000] {processor.py:153} INFO - Started process (PID=14431) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T02:28:36.420+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T02:28:36.423+0000] {logging_mixin.py:137} INFO - [2023-02-17T02:28:36.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T02:28:37.304+0000] {logging_mixin.py:137} INFO - [2023-02-17T02:28:37.302+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T02:28:37.305+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T02:28:37.330+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.920 seconds
+[2023-02-17T03:33:42.635+0000] {processor.py:153} INFO - Started process (PID=14509) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T03:33:42.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T03:33:42.644+0000] {logging_mixin.py:137} INFO - [2023-02-17T03:33:42.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T03:33:43.482+0000] {logging_mixin.py:137} INFO - [2023-02-17T03:33:43.480+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T03:33:43.483+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T03:33:43.503+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.880 seconds
+[2023-02-17T04:44:32.491+0000] {processor.py:153} INFO - Started process (PID=14574) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T04:44:32.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T04:44:32.502+0000] {logging_mixin.py:137} INFO - [2023-02-17T04:44:32.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T04:44:33.438+0000] {logging_mixin.py:137} INFO - [2023-02-17T04:44:33.435+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T04:44:33.440+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T04:44:33.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 1.018 seconds
+[2023-02-17T05:53:18.918+0000] {processor.py:153} INFO - Started process (PID=14639) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T05:53:18.921+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T05:53:18.922+0000] {logging_mixin.py:137} INFO - [2023-02-17T05:53:18.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T05:53:19.493+0000] {logging_mixin.py:137} INFO - [2023-02-17T05:53:19.488+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T05:53:19.496+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T05:53:19.607+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.704 seconds
+[2023-02-17T07:01:12.334+0000] {processor.py:153} INFO - Started process (PID=14715) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:01:12.336+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:01:12.338+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:01:12.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:01:12.676+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:01:12.675+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:01:12.677+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:01:12.695+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.365 seconds
+[2023-02-17T07:15:07.626+0000] {processor.py:153} INFO - Started process (PID=14782) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:15:07.629+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:15:07.633+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:15:07.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:15:08.967+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:15:08.962+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:15:08.969+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:15:09.011+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 1.397 seconds
+[2023-02-17T07:15:39.209+0000] {processor.py:153} INFO - Started process (PID=14869) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:15:39.212+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:15:39.215+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:15:39.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:15:39.527+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:15:39.525+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:15:39.528+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:15:39.552+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.347 seconds
+[2023-02-17T07:16:09.609+0000] {processor.py:153} INFO - Started process (PID=14933) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:16:09.614+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:16:09.615+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:16:09.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:16:09.941+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:16:09.938+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:16:09.942+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:16:09.964+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.359 seconds
+[2023-02-17T07:16:40.222+0000] {processor.py:153} INFO - Started process (PID=15000) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:16:40.228+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:16:40.233+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:16:40.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:16:41.116+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:16:41.106+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:16:41.121+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:16:41.187+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.978 seconds
+[2023-02-17T07:17:11.505+0000] {processor.py:153} INFO - Started process (PID=15065) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:17:11.508+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:17:11.509+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:17:11.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:17:11.919+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:17:11.917+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:17:11.920+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:17:11.940+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.446 seconds
+[2023-02-17T07:17:42.739+0000] {processor.py:153} INFO - Started process (PID=15143) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:17:42.746+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:17:42.751+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:17:42.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:17:43.306+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:17:43.304+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:17:43.307+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:17:43.324+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.610 seconds
+[2023-02-17T07:18:13.571+0000] {processor.py:153} INFO - Started process (PID=15218) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:18:13.572+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:18:13.573+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:18:13.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:18:13.853+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:18:13.850+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:18:13.853+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:18:13.889+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.322 seconds
+[2023-02-17T07:18:44.182+0000] {processor.py:153} INFO - Started process (PID=15297) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:18:44.183+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:18:44.184+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:18:44.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:18:44.590+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:18:44.588+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:18:44.591+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:18:44.612+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.434 seconds
+[2023-02-17T07:19:14.908+0000] {processor.py:153} INFO - Started process (PID=15367) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:19:14.912+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:19:14.913+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:19:14.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:19:15.253+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:19:15.251+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:19:15.255+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:19:15.278+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.378 seconds
+[2023-02-17T07:19:45.466+0000] {processor.py:153} INFO - Started process (PID=15449) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:19:45.469+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:19:45.471+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:19:45.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:19:45.864+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:19:45.862+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:19:45.865+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:19:45.895+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.433 seconds
+[2023-02-17T07:20:15.999+0000] {processor.py:153} INFO - Started process (PID=15529) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:20:16.000+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:20:16.001+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:20:16.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:20:16.251+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:20:16.248+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:20:16.251+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:20:16.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.290 seconds
+[2023-02-17T07:20:46.644+0000] {processor.py:153} INFO - Started process (PID=15566) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:20:46.646+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:20:46.648+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:20:46.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:20:47.120+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:20:47.114+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:20:47.122+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:20:47.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.514 seconds
+[2023-02-17T07:21:17.252+0000] {processor.py:153} INFO - Started process (PID=15639) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:21:17.253+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:21:17.254+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:21:17.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:21:17.649+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:21:17.647+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:21:17.650+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:21:17.676+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.429 seconds
+[2023-02-17T07:21:47.934+0000] {processor.py:153} INFO - Started process (PID=15710) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:21:47.936+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:21:47.937+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:21:47.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:21:48.243+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:21:48.240+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:21:48.244+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:21:48.265+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.337 seconds
+[2023-02-17T07:22:18.596+0000] {processor.py:153} INFO - Started process (PID=15787) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:22:18.598+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:22:18.599+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:22:18.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:22:18.909+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:22:18.904+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:22:18.913+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:22:18.959+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.366 seconds
+[2023-02-17T07:22:49.266+0000] {processor.py:153} INFO - Started process (PID=15852) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:22:49.268+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:22:49.269+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:22:49.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:22:49.723+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:22:49.716+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:22:49.728+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:22:49.771+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.509 seconds
+[2023-02-17T07:23:20.101+0000] {processor.py:153} INFO - Started process (PID=15918) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:23:20.104+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:23:20.106+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:23:20.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:23:20.511+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:23:20.509+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:23:20.512+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:23:20.530+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.448 seconds
+[2023-02-17T07:23:50.720+0000] {processor.py:153} INFO - Started process (PID=15993) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:23:50.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:23:50.722+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:23:50.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:23:50.993+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:23:50.991+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:23:50.994+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:23:51.010+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.292 seconds
+[2023-02-17T07:24:21.207+0000] {processor.py:153} INFO - Started process (PID=16060) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:24:21.209+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:24:21.211+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:24:21.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:24:21.619+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:24:21.617+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:24:21.622+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:24:21.639+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.441 seconds
+[2023-02-17T07:24:51.727+0000] {processor.py:153} INFO - Started process (PID=16130) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:24:51.728+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:24:51.729+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:24:51.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:24:52.092+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:24:52.090+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:24:52.092+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:24:52.116+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.392 seconds
+[2023-02-17T07:25:22.376+0000] {processor.py:153} INFO - Started process (PID=16218) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:25:22.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:25:22.378+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:25:22.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:25:22.730+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:25:22.727+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:25:22.731+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:25:22.751+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.379 seconds
+[2023-02-17T07:25:52.820+0000] {processor.py:153} INFO - Started process (PID=16292) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:25:52.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:25:52.824+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:25:52.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:25:53.124+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:25:53.122+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:25:53.125+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:25:53.144+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.327 seconds
+[2023-02-17T07:26:23.301+0000] {processor.py:153} INFO - Started process (PID=16368) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:26:23.303+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:26:23.303+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:26:23.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:26:23.582+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:26:23.580+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:26:23.583+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:26:23.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.306 seconds
+[2023-02-17T07:26:54.226+0000] {processor.py:153} INFO - Started process (PID=16410) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:26:54.229+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:26:54.232+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:26:54.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:26:54.619+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:26:54.616+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:26:54.621+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:26:54.640+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.419 seconds
+[2023-02-17T07:27:24.794+0000] {processor.py:153} INFO - Started process (PID=16497) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:27:24.796+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:27:24.796+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:27:24.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:27:25.111+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:27:25.106+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:27:25.113+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:27:25.143+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.352 seconds
+[2023-02-17T07:27:55.426+0000] {processor.py:153} INFO - Started process (PID=16562) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:27:55.427+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:27:55.428+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:27:55.428+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:27:55.673+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:27:55.672+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:27:55.674+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:27:55.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.286 seconds
+[2023-02-17T07:28:25.912+0000] {processor.py:153} INFO - Started process (PID=16639) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:28:25.913+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:28:25.914+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:28:25.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:28:26.199+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:28:26.197+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:28:26.199+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:28:26.218+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.308 seconds
+[2023-02-17T07:28:56.254+0000] {processor.py:153} INFO - Started process (PID=16704) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:28:56.255+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:28:56.256+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:28:56.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:28:56.526+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:28:56.523+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:28:56.527+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:28:56.549+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.298 seconds
+[2023-02-17T07:29:26.687+0000] {processor.py:153} INFO - Started process (PID=16782) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:29:26.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:29:26.693+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:29:26.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:29:27.043+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:29:27.040+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:29:27.044+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:29:27.098+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.419 seconds
+[2023-02-17T07:29:57.492+0000] {processor.py:153} INFO - Started process (PID=16837) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:29:57.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:29:57.498+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:29:57.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:29:57.928+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:29:57.926+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:29:57.929+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:29:57.953+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.485 seconds
+[2023-02-17T07:30:28.334+0000] {processor.py:153} INFO - Started process (PID=16924) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:30:28.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:30:28.338+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:30:28.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:30:28.867+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:30:28.864+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:30:28.869+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:30:28.908+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.578 seconds
+[2023-02-17T07:30:59.190+0000] {processor.py:153} INFO - Started process (PID=16994) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:30:59.191+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:30:59.192+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:30:59.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:30:59.551+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:30:59.547+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:30:59.552+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:30:59.574+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.387 seconds
+[2023-02-17T07:31:30.115+0000] {processor.py:153} INFO - Started process (PID=17072) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:31:30.117+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:31:30.121+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:31:30.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:31:30.651+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:31:30.631+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:31:30.656+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:31:30.709+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.600 seconds
+[2023-02-17T07:32:01.334+0000] {processor.py:153} INFO - Started process (PID=17139) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:32:01.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T07:32:01.340+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:32:01.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:32:03.745+0000] {logging_mixin.py:137} INFO - [2023-02-17T07:32:03.724+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T07:32:03.749+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T07:32:03.883+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 2.558 seconds
+[2023-02-17T08:08:19.731+0000] {processor.py:153} INFO - Started process (PID=17162) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:08:19.736+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:08:19.739+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:08:19.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:08:20.529+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:08:20.523+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:08:20.530+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:08:20.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.853 seconds
+[2023-02-17T08:08:50.735+0000] {processor.py:153} INFO - Started process (PID=17242) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:08:50.738+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:08:50.740+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:08:50.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:08:51.067+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:08:51.064+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:08:51.068+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:08:51.087+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.360 seconds
+[2023-02-17T08:09:21.341+0000] {processor.py:153} INFO - Started process (PID=17307) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:09:21.343+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:09:21.345+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:09:21.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:09:21.751+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:09:21.749+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:09:21.752+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:09:21.773+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.439 seconds
+[2023-02-17T08:09:52.532+0000] {processor.py:153} INFO - Started process (PID=17381) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:09:52.536+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:09:52.556+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:09:52.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:09:53.185+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:09:53.181+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:09:53.187+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:09:53.243+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.717 seconds
+[2023-02-17T08:10:24.048+0000] {processor.py:153} INFO - Started process (PID=17447) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:10:24.089+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:10:24.116+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:10:24.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:10:26.554+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:10:26.529+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:10:26.582+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:10:26.788+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 2.816 seconds
+[2023-02-17T08:10:57.353+0000] {processor.py:153} INFO - Started process (PID=17519) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:10:57.362+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:10:57.368+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:10:57.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:10:57.930+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:10:57.925+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:10:57.933+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:10:57.960+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.618 seconds
+[2023-02-17T08:11:28.106+0000] {processor.py:153} INFO - Started process (PID=17584) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:11:28.108+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:11:28.109+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:11:28.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:11:28.636+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:11:28.633+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:11:28.639+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:11:28.771+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.670 seconds
+[2023-02-17T08:11:59.136+0000] {processor.py:153} INFO - Started process (PID=17668) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:11:59.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:11:59.141+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:11:59.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:11:59.696+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:11:59.692+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:11:59.697+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:11:59.748+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.615 seconds
+[2023-02-17T08:12:32.223+0000] {processor.py:153} INFO - Started process (PID=17726) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:12:32.325+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:12:32.415+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:12:32.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:12:38.403+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:12:38.399+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:12:38.406+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:12:38.482+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 6.498 seconds
+[2023-02-17T08:13:09.042+0000] {processor.py:153} INFO - Started process (PID=17788) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:13:09.049+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:13:09.053+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:13:09.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:13:09.581+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:13:09.579+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:13:09.583+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:13:09.609+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.583 seconds
+[2023-02-17T08:13:40.125+0000] {processor.py:153} INFO - Started process (PID=17873) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:13:40.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:13:40.134+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:13:40.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:13:40.893+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:13:40.874+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:13:40.896+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:13:41.004+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.884 seconds
+[2023-02-17T08:14:11.307+0000] {processor.py:153} INFO - Started process (PID=17938) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:14:11.308+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:14:11.309+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:11.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:14:11.603+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:11.599+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:14:11.605+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:14:11.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.322 seconds
+[2023-02-17T08:14:42.021+0000] {processor.py:153} INFO - Started process (PID=18014) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:14:42.024+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:14:42.025+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:42.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:14:42.479+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:42.454+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:14:42.484+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:14:42.543+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.526 seconds
+[2023-02-17T08:15:12.968+0000] {processor.py:153} INFO - Started process (PID=18069) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:15:12.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:15:12.975+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:12.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:15:13.447+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:13.445+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:15:13.450+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:15:13.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.515 seconds
+[2023-02-17T08:15:43.773+0000] {processor.py:153} INFO - Started process (PID=18134) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:15:43.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:15:43.778+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:43.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:15:44.315+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:44.313+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:15:44.317+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:15:44.334+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.569 seconds
+[2023-02-17T08:16:14.539+0000] {processor.py:153} INFO - Started process (PID=18211) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:16:14.542+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:16:14.544+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:14.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:16:14.984+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:14.982+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:16:14.985+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:16:15.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.473 seconds
+[2023-02-17T08:16:45.332+0000] {processor.py:153} INFO - Started process (PID=18276) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:16:45.334+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:16:45.336+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:45.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:16:45.892+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:45.889+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:16:45.896+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:16:45.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.615 seconds
+[2023-02-17T08:17:16.231+0000] {processor.py:153} INFO - Started process (PID=18341) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:17:16.235+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:17:16.238+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:16.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:17:17.104+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:17.100+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:17:17.109+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:17:17.154+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.936 seconds
+[2023-02-17T08:17:47.428+0000] {processor.py:153} INFO - Started process (PID=18418) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:17:47.430+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:17:47.431+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:47.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:17:47.798+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:47.796+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:17:47.799+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:17:47.819+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.398 seconds
+[2023-02-17T08:18:18.055+0000] {processor.py:153} INFO - Started process (PID=18483) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:18:18.059+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:18:18.061+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:18.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:18:18.463+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:18.459+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:18:18.465+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:18:18.490+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.449 seconds
+[2023-02-17T08:18:48.739+0000] {processor.py:153} INFO - Started process (PID=18554) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:18:48.743+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:18:48.746+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:48.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:18:49.356+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:49.351+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:18:49.359+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:18:49.389+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.678 seconds
+[2023-02-17T08:19:20.004+0000] {processor.py:153} INFO - Started process (PID=18624) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:19:20.010+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:19:20.011+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:20.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:19:20.476+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:20.474+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:19:20.477+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:19:20.527+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.538 seconds
+[2023-02-17T08:19:50.890+0000] {processor.py:153} INFO - Started process (PID=18690) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:19:50.894+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:19:50.896+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:50.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:19:51.334+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:51.332+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:19:51.335+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:19:51.350+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.480 seconds
+[2023-02-17T08:20:22.653+0000] {processor.py:153} INFO - Started process (PID=18783) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:20:22.655+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:20:22.656+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:22.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:20:23.138+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:23.135+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:20:23.139+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:20:23.158+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.508 seconds
+[2023-02-17T08:20:53.290+0000] {processor.py:153} INFO - Started process (PID=18857) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:20:53.291+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:20:53.292+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:53.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:20:53.625+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:53.622+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:20:53.626+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:20:53.643+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.356 seconds
+[2023-02-17T08:21:24.170+0000] {processor.py:153} INFO - Started process (PID=18927) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:21:24.172+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:21:24.172+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:24.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:21:24.513+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:24.510+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:21:24.514+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:21:24.532+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.365 seconds
+[2023-02-17T08:21:54.760+0000] {processor.py:153} INFO - Started process (PID=18992) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:21:54.772+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:21:54.784+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:54.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:21:55.516+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:55.495+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:21:55.521+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:21:55.553+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.812 seconds
+[2023-02-17T08:52:57.602+0000] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:52:57.612+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:52:57.617+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:52:57.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:53:10.676+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:53:10.614+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:53:10.690+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:53:11.448+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 13.881 seconds
+[2023-02-17T08:53:45.556+0000] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:53:45.557+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:53:45.558+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:53:45.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:53:46.046+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:53:46.035+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:53:46.050+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:53:46.096+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.543 seconds
+[2023-02-17T08:54:16.351+0000] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:54:16.377+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:54:16.385+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:54:16.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:54:17.191+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:54:17.185+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:54:17.194+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:54:17.313+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 1.013 seconds
+[2023-02-17T08:54:48.044+0000] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:54:48.055+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:54:48.061+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:54:48.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:54:49.570+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:54:49.545+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:54:49.639+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:54:50.039+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 2.032 seconds
+[2023-02-17T08:56:42.621+0000] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:56:42.657+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:56:42.692+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:56:42.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:56:56.584+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:56:56.567+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:56:56.592+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:56:57.027+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 14.486 seconds
+[2023-02-17T08:57:28.875+0000] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:57:28.937+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:57:28.943+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:57:28.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:57:44.927+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:57:44.815+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:57:44.939+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:57:45.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 16.547 seconds
+[2023-02-17T08:58:17.623+0000] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:58:17.673+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:58:17.682+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:58:17.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:58:27.251+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:58:27.215+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:58:27.273+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:58:27.615+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 10.170 seconds
+[2023-02-17T08:59:00.331+0000] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:59:00.348+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:59:00.356+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:59:00.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:59:04.714+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:59:04.698+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:59:04.737+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:59:04.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 4.658 seconds
+[2023-02-17T08:59:36.591+0000] {processor.py:153} INFO - Started process (PID=473) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:59:36.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T08:59:36.602+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:59:36.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:59:38.179+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:59:38.172+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T08:59:38.181+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T08:59:38.243+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 1.677 seconds
+[2023-02-17T09:00:08.786+0000] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:00:08.801+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:00:08.816+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:00:08.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:00:09.721+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:00:09.656+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T09:00:09.734+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:00:09.878+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 1.132 seconds
+[2023-02-17T09:00:40.473+0000] {processor.py:153} INFO - Started process (PID=611) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:00:40.478+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:00:40.480+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:00:40.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:00:41.269+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:00:41.266+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T09:00:41.275+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:00:41.335+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.889 seconds
+[2023-02-17T09:01:11.643+0000] {processor.py:153} INFO - Started process (PID=679) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:01:11.648+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:01:11.650+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:01:11.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:01:12.437+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:01:12.426+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T09:01:12.438+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:01:12.519+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.885 seconds
+[2023-02-17T09:01:43.263+0000] {processor.py:153} INFO - Started process (PID=749) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:01:43.271+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:01:43.280+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:01:43.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:01:44.013+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:01:43.976+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T09:01:44.025+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:01:44.145+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.907 seconds
+[2023-02-17T09:02:14.780+0000] {processor.py:153} INFO - Started process (PID=814) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:02:14.783+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:02:14.784+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:02:14.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:02:15.265+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:02:15.255+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T09:02:15.276+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:02:15.363+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.590 seconds
+[2023-02-17T09:02:45.736+0000] {processor.py:153} INFO - Started process (PID=890) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:02:45.738+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:02:45.739+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:02:45.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:02:46.117+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:02:46.114+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_e2e_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_e2e_etl.py", line 41, in <module>
+    python_callable=t1a_read_csv_from_web
+NameError: name 't1a_read_csv_from_web' is not defined
+[2023-02-17T09:02:46.119+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:02:46.159+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_e2e_etl.py took 0.431 seconds
+[2023-02-17T09:03:16.805+0000] {processor.py:153} INFO - Started process (PID=955) to work on /opt/airflow/dags/dag_e2e_etl.py
+[2023-02-17T09:03:16.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_e2e_etl.py for tasks to queue
+[2023-02-17T09:03:16.835+0000] {logging_mixin.py:137} INFO - [2023-02-17T09:03:16.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_e2e_etl.py

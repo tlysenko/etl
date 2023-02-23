@@ -1,0 +1,79 @@
+[2023-02-20T17:37:13.715+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_to_postgres_v01.download_csv_and_store_to_S3 manual__2023-02-20T17:32:07.043382+00:00 [queued]>
+[2023-02-20T17:37:13.720+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_to_postgres_v01.download_csv_and_store_to_S3 manual__2023-02-20T17:32:07.043382+00:00 [queued]>
+[2023-02-20T17:37:13.721+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T17:37:13.721+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-02-20T17:37:13.722+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T17:37:13.729+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_csv_and_store_to_S3> on 2023-02-20 17:32:07.043382+00:00
+[2023-02-20T17:37:13.735+0000] {standard_task_runner.py:55} INFO - Started process 1037 to run task
+[2023-02-20T17:37:13.739+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'csv_to_postgres_v01', 'download_csv_and_store_to_S3', 'manual__2023-02-20T17:32:07.043382+00:00', '--job-id', '160', '--raw', '--subdir', 'DAGS_FOLDER/clean_csv_via_s3_and_postgres.py', '--cfg-path', '/tmp/tmpqu7utkg_']
+[2023-02-20T17:37:13.741+0000] {standard_task_runner.py:83} INFO - Job 160: Subtask download_csv_and_store_to_S3
+[2023-02-20T17:37:13.800+0000] {task_command.py:388} INFO - Running <TaskInstance: csv_to_postgres_v01.download_csv_and_store_to_S3 manual__2023-02-20T17:32:07.043382+00:00 [running]> on host c2aaa60a62e5
+[2023-02-20T17:37:13.851+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=csv_to_postgres_v01
+AIRFLOW_CTX_TASK_ID=download_csv_and_store_to_S3
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T17:32:07.043382+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T17:32:07.043382+00:00
+[2023-02-20T17:37:15.007+0000] {base_aws.py:133} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2023-02-20T17:37:17.462+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/clean_csv_via_s3_and_postgres.py", line 61, in download_csv_and_store_to_S3
+    store_df_to_s3(df)
+  File "/opt/airflow/dags/clean_csv_via_s3_and_postgres.py", line 45, in store_df_to_s3
+    key=file_name
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 99, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 70, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 695, in load_string
+    self._upload_file_obj(file_obj, key, bucket_name, replace, encrypt, acl_policy)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 779, in _upload_file_obj
+    Config=self.transfer_config,
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 636, in upload_fileobj
+    return future.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 758, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 530, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 944, in _make_api_call
+    operation_model, request_dict, request_context
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 966, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 137, in create_request
+    operation_name=operation_model.name,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 105, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 189, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/auth.py", line 418, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2023-02-20T17:37:17.480+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=csv_to_postgres_v01, task_id=download_csv_and_store_to_S3, execution_date=20230220T173207, start_date=20230220T173713, end_date=20230220T173717
+[2023-02-20T17:37:17.491+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 160 for task download_csv_and_store_to_S3 (Unable to locate credentials; 1037)
+[2023-02-20T17:37:17.538+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-02-20T17:37:17.561+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

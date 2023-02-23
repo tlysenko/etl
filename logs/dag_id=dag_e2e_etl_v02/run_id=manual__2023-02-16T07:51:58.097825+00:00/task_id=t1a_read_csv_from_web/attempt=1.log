@@ -1,0 +1,23 @@
+[2023-02-16T07:52:00.052+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_e2e_etl_v02.t1a_read_csv_from_web manual__2023-02-16T07:51:58.097825+00:00 [queued]>
+[2023-02-16T07:52:00.062+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: dag_e2e_etl_v02.t1a_read_csv_from_web manual__2023-02-16T07:51:58.097825+00:00 [queued]>
+[2023-02-16T07:52:00.063+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16T07:52:00.063+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-16T07:52:00.064+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16T07:52:00.077+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): t1a_read_csv_from_web> on 2023-02-16 07:51:58.097825+00:00
+[2023-02-16T07:52:00.083+0000] {standard_task_runner.py:55} INFO - Started process 34331 to run task
+[2023-02-16T07:52:00.088+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_e2e_etl_v02', 't1a_read_csv_from_web', 'manual__2023-02-16T07:51:58.097825+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/dag_e2e_etl.py', '--cfg-path', '/tmp/tmp6volqd3d']
+[2023-02-16T07:52:00.090+0000] {standard_task_runner.py:83} INFO - Job 148: Subtask t1a_read_csv_from_web
+[2023-02-16T07:52:00.174+0000] {task_command.py:388} INFO - Running <TaskInstance: dag_e2e_etl_v02.t1a_read_csv_from_web manual__2023-02-16T07:51:58.097825+00:00 [running]> on host 20eb5e5814e6
+[2023-02-16T07:52:07.358+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag_e2e_etl_v02
+AIRFLOW_CTX_TASK_ID=t1a_read_csv_from_web
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T07:51:58.097825+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T07:51:58.097825+00:00
+[2023-02-16T07:52:09.103+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-16T07:52:09.150+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=dag_e2e_etl_v02, task_id=t1a_read_csv_from_web, execution_date=20230216T075158, start_date=20230216T075200, end_date=20230216T075209
+[2023-02-16T07:52:09.395+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-16T07:52:09.438+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

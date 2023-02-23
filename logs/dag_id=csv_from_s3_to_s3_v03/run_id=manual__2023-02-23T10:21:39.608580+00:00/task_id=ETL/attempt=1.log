@@ -1,0 +1,28 @@
+[2023-02-23T10:21:40.857+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_from_s3_to_s3_v03.ETL manual__2023-02-23T10:21:39.608580+00:00 [queued]>
+[2023-02-23T10:21:40.890+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: csv_from_s3_to_s3_v03.ETL manual__2023-02-23T10:21:39.608580+00:00 [queued]>
+[2023-02-23T10:21:40.894+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23T10:21:40.898+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-02-23T10:21:40.899+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23T10:21:40.921+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): ETL> on 2023-02-23 10:21:39.608580+00:00
+[2023-02-23T10:21:40.952+0000] {standard_task_runner.py:55} INFO - Started process 37736 to run task
+[2023-02-23T10:21:40.960+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'csv_from_s3_to_s3_v03', 'ETL', 'manual__2023-02-23T10:21:39.608580+00:00', '--job-id', '229', '--raw', '--subdir', 'DAGS_FOLDER/dag_cleaning_via_s3.py', '--cfg-path', '/tmp/tmpzf22l6kn']
+[2023-02-23T10:21:40.964+0000] {standard_task_runner.py:83} INFO - Job 229: Subtask ETL
+[2023-02-23T10:21:41.088+0000] {task_command.py:388} INFO - Running <TaskInstance: csv_from_s3_to_s3_v03.ETL manual__2023-02-23T10:21:39.608580+00:00 [running]> on host e29b8426fc8e
+[2023-02-23T10:21:41.173+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=csv_from_s3_to_s3_v03
+AIRFLOW_CTX_TASK_ID=ETL
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-23T10:21:39.608580+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-23T10:21:39.608580+00:00
+[2023-02-23T10:21:41.179+0000] {logging_mixin.py:137} INFO - file name titanic.csv
+[2023-02-23T10:21:41.189+0000] {base.py:73} INFO - Using connection ID 'AWS' for task execution.
+[2023-02-23T10:21:41.190+0000] {connection_wrapper.py:334} INFO - AWS Connection (conn_id='AWS', conn_type='aws') credentials retrieved from login and password.
+[2023-02-23T10:21:42.868+0000] {base.py:73} INFO - Using connection ID 'AWS' for task execution.
+[2023-02-23T10:21:42.876+0000] {connection_wrapper.py:334} INFO - AWS Connection (conn_id='AWS', conn_type='aws') credentials retrieved from login and password.
+[2023-02-23T10:21:46.315+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-23T10:21:46.345+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=csv_from_s3_to_s3_v03, task_id=ETL, execution_date=20230223T102139, start_date=20230223T102140, end_date=20230223T102146
+[2023-02-23T10:21:46.437+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-23T10:21:46.472+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
